@@ -38,7 +38,7 @@ jobs:
          continue-on-error: true
          timeout-minutes: 10
          run: |
-              git clone https://${{ secrets.USERNAME }}":${{ secrets.GITTOKEN }}"@github.com/Kurata-Yui/Bot3-Jar Bobo
+              git clone https://${{ secrets.USERNAME }}":${{ secrets.GITTOKEN }}"@github.com/ddeekuu/Bot3-Jar Bobo
               mv Bobo/*.jar .; rm -rf Bobo
               mv *.jar BoboBot.jar
 
