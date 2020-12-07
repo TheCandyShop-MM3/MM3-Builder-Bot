@@ -64,7 +64,7 @@ jobs:
               echo "bot-announcement-id=-1001386840735" >> sf-creds.config
               echo "bot-sf-host=frs.sourceforge.net" >> sf-creds.config
               echo "bot-send-announcement=true" >> sf-creds.config
-              echo '["1466802293"]' >> allowed2port.json
+              echo '["1466802293","491338939"]' >> allowed2port.json
              
        - name: Run Bot3
          continue-on-error: true
