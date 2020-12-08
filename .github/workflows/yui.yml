@@ -65,7 +65,9 @@ jobs:
               echo "bot-sf-host=frs.sourceforge.net" >> sf-creds.config
               echo "bot-send-announcement=true" >> sf-creds.config
               echo '["1466802293","491338939"]' >> allowed2port.json
-             
+              touch gdrive.config
+              echo "client-secret=${{ secrets.GDRIVE_TOKEN }}" >> gdrive.config
+
        - name: Run Bot3
          continue-on-error: true
          timeout-minutes: 350
