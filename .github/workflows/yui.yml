@@ -67,6 +67,11 @@ jobs:
               echo '["1466802293","491338939"]' >> allowed2port.json
               touch gdrive.config
               echo "client-secret=${{ secrets.GDRIVE_TOKEN }}" >> gdrive.config
+              cd ..
+              mkdir credentials
+              cd credentials
+              touch credentials.json
+              echo "${{ secrets.GDRIVE_JSON }}" >> credentials.json
 
        - name: Run Bot3
          continue-on-error: true
