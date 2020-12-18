@@ -59,7 +59,7 @@ jobs:
               echo "bot-username=dekugsi_bot" >> "config.prop"
               echo "bot-master=1466802293" >> "config.prop"
               echo "bot-sf-pass=${{ secrets.SF_PASS }}" >> sf-creds.config
-              echo "bot-sf-proj=mm3-tests" >> sf-creds.config
+              echo "bot-sf-proj=mm3-gsi-tests" >> sf-creds.config
               echo "bot-sf-user=dekunya" >> sf-creds.config
               echo "bot-announcement-id=-1001372562542" >> sf-creds.config
               echo "bot-sf-host=frs.sourceforge.net" >> sf-creds.config
