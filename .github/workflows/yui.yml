@@ -21,7 +21,7 @@ jobs:
               git config --global user.name "ddeekuu"
               git config --global user.email "secrets.EMAILGIT"
               mkdir tmp && cd tmp
-              git clone https://github.com/ddeekuu/Kurata-Yui Kurata-Yui
+              git clone https://${{ secrets.USERNAME }}":${{ secrets.GITTOKEN }}"@github.com/ddeekuu/MM3-Builder-Bot MM3-Builder-Bot
 
        - name: Setup Erfan & Save Space
          continue-on-error: true
