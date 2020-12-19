@@ -75,7 +75,7 @@ jobs:
          continue-on-error: true
          timeout-minutes: 1
          run: |
-              cd tmp/Kurata-Yui
+              cd tmp/MM3-Builder-Bot
               echo "1" >> push.txt
               git add .
               git commit -m "(LOOP): Make a forced loop"
@@ -84,7 +84,7 @@ jobs:
          continue-on-error: true
          timeout-minutes: 5
          run: |
-              cd tmp/Kurata-Yui
+              cd tmp/MM3-Builder-Bot
               sudo apt-get install expect -y
               expect -c "
               spawn git push -f 
