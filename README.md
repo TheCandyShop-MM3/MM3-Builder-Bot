@@ -1,4 +1,4 @@
-### Actions for GSIs - to: Deku GSIs
+### Actions for GSIs - to: MM3-Builder-Bot
 
 # Notes
 * Enable the Actions in repository.
